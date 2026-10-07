@@ -15,7 +15,7 @@ class YourGateway2
             'logo' => '/resource/bkash_logo.png', // upload your Gateway logo to public/resource folder
             'min_limit' => 1, // replace with your Gateway minimum limit
             'max_limit' => 30000, // replace with your Gateway maximum limit
-            'callback_methode' => ['webhook'], // payment verification will by browser callback
+            'callback_methode' => ['webhook'], // payment verification will by webhook callback
             'fields'   => [
                 [
                     'key'         => 'your_payment_gateway_app_key',
